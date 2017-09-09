@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "name": "Chat Bot",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "4.0.17",
+    "uniqCompNum": 1,
+    "versionPublish": "4.0.17"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showModal": false,
+            "myModalId": "",
+            "blockTitle": "<h1>Modal Block Title</h1>",
+            "text": "\t        <script type=\"text/javascript\">\n\t\tvar headID = document.getElementsByTagName(\"head\")[0];\n\t\tvar newCss = document.createElement('link');\n\t\tnewCss.rel = 'stylesheet';\n\t\tnewCss.type = 'text/css';\n\t\twindow._botUsername = '642381';\n\t\twindow._botName = 'Winston';\n\t\tnewCss.href = \"http://rebot.me/assets/css/bot.css\";\n\t\tvar newScript = document.createElement('script');\n\t\tnewScript.src = \"http://rebot.me/assets/js/bot.js\";\n\t\tnewScript.type = 'text/javascript';\n\t\theadID.appendChild(newScript);\n\t\theadID.appendChild(newCss);\n\t\t</script>\n\t    ",
+            "bgColor": "#fefefe",
+            "extEdit": true
+          },
+          "blockTitle": "<h1>Modal Block Title</h1>",
+          "text": "\t        <script type=\"text/javascript\">\n\t\tvar headID = document.getElementsByTagName(\"head\")[0];\n\t\tvar newCss = document.createElement('link');\n\t\tnewCss.rel = 'stylesheet';\n\t\tnewCss.type = 'text/css';\n\t\twindow._botUsername = '642381';\n\t\twindow._botName = 'Winston';\n\t\tnewCss.href = \"http://rebot.me/assets/css/bot.css\";\n\t\tvar newScript = document.createElement('script');\n\t\tnewScript.src = \"http://rebot.me/assets/js/bot.js\";\n\t\tnewScript.type = 'text/javascript';\n\t\theadID.appendChild(newScript);\n\t\theadID.appendChild(newCss);\n\t\t</script>\n\t    ",
+          "alias": "modalblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "modal-block",
+          "_anchor": "modal-block-0"
+        }
+      ]
+    }
+  }
+}
